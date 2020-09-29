@@ -1,0 +1,26 @@
+{
+  "name": "file-watcher",
+  "version": "0.1.0",
+  "description": "Watch a text or JSON file for changes, display a diff when changes occur",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "fwatch": "./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davismmarques/file-watcher.git"
+  },
+  "author": "Davis Marques",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davismmarques/file-watcher/issues"
+  },
+  "homepage": "https://github.com/davismmarques/file-watcher#readme",
+  "dependencies": {
+    "chokidar": "^3.4.2",
+    "diff": "^4.0.2"
+  }
+}
